@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Mercury Test suite]">
+  <test name="Login test(failed)">
+    <classes>
+      <class name="MyFirstProject.MyFirstProject.LoginFeature">
+        <methods>
+          <include name="Test1"/>
+          <include name="teardown"/>
+          <include name="Test2"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- MyFirstProject.MyFirstProject.LoginFeature -->
+    </classes>
+  </test> <!-- Login test(failed) -->
+</suite> <!-- Failed suite [Mercury Test suite] -->

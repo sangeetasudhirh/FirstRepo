@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Mercury Test suite" duration-ms="28932" started-at="2017-05-14T02:55:22Z" finished-at="2017-05-14T02:55:51Z">
+    <groups>
+    </groups>
+    <test name="Login test" duration-ms="28932" started-at="2017-05-14T02:55:22Z" finished-at="2017-05-14T02:55:51Z">
+      <class name="MyFirstProject.MyFirstProject.LoginFeature">
+        <test-method status="PASS" signature="setup()[pri:0, instance:MyFirstProject.MyFirstProject.LoginFeature@783e6358]" name="setup" is-config="true" duration-ms="9008" started-at="2017-05-14T08:25:22Z" finished-at="2017-05-14T08:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:MyFirstProject.MyFirstProject.LoginFeature@783e6358]" name="Test1" duration-ms="3141" started-at="2017-05-14T08:25:31Z" description="validating login with Valid Credentials" finished-at="2017-05-14T08:25:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:MyFirstProject.MyFirstProject.LoginFeature@783e6358]" name="teardown" is-config="true" duration-ms="775" started-at="2017-05-14T08:25:34Z" finished-at="2017-05-14T08:25:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:MyFirstProject.MyFirstProject.LoginFeature@783e6358]" name="setup" is-config="true" duration-ms="7975" started-at="2017-05-14T08:25:35Z" finished-at="2017-05-14T08:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:MyFirstProject.MyFirstProject.LoginFeature@783e6358]" name="Test2" duration-ms="7473" started-at="2017-05-14T08:25:43Z" description="validating login with In-Valid Credentials" finished-at="2017-05-14T08:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:MyFirstProject.MyFirstProject.LoginFeature@783e6358]" name="teardown" is-config="true" duration-ms="523" started-at="2017-05-14T08:25:50Z" finished-at="2017-05-14T08:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- MyFirstProject.MyFirstProject.LoginFeature -->
+    </test> <!-- Login test -->
+  </suite> <!-- Mercury Test suite -->
+</testng-results>
