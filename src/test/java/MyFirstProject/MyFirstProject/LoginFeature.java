@@ -1,7 +1,5 @@
 package MyFirstProject.MyFirstProject;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -35,6 +33,14 @@ public class LoginFeature
 	
 	@Test(description="validating login with In-Valid Credentials")
 	public void Test2()
+	{
+		LoginPage loginpage = new LoginPage(driver);
+		String val= loginpage.inValidLogin("admin", "manager1");
+		Assert.assertTrue(val.contains("Please try again."),"may be login");
+	}
+	
+	@Test(description="validating login with In-Valid Credentials")
+	public void Test3()
 	{
 		LoginPage loginpage = new LoginPage(driver);
 		String val= loginpage.inValidLogin("admin", "manager1");
